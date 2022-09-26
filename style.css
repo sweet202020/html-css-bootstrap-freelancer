@@ -9,7 +9,7 @@
 nav{
     background-color: var(--boot-primary);
 }
-.debug .col-4{
+.debug header .col-4{
     height: 100px;
     background-color: aqua;
     border: 1px solid;
@@ -19,13 +19,43 @@ nav{
     height: 200px;
 }
 .debug .portfolio .col-12,
-.debug .portfolio .col-6,
-.debug .portfolio .col-4{
+.debug .portfolio .col-lg-6,
+.debug .portfolio .col-xl-4{
     background-color: red;
+    border: 1px solid;
+    height: 100px;
+}
+.debug .about .col-12,
+.debug .about .col-lg-6{
+    background-color: yellow;
+    height: 200px;
+    border: 1px solid;
+}
+.debug .contact{
+    height: 200px;
+    background-color: purple;
+}
+
+.debug .footer_bottom{
+    height: 100px;
+}
+.debug .footer_top .col-12,
+.debug .footer_top .col-lg-4{
+    background-color: lightcoral;
     border: 1px solid;
     height: 100px;
 }
 
 .bootstrap{
     background-color: var(--boot-start);
+}
+
+.about{
+    background-color: var(--boot-start);
+}
+.footer_top{
+    background-color: var(--boot-primary);
+}
+.footer_bottom{
+    background-color: var(--boot-foot);
 }
