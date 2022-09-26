@@ -14,3 +14,18 @@ nav{
     background-color: aqua;
     border: 1px solid;
 }
+.debug .jumbo{
+    background-color: green;
+    height: 200px;
+}
+.debug .portfolio .col-12,
+.debug .portfolio .col-6,
+.debug .portfolio .col-4{
+    background-color: red;
+    border: 1px solid;
+    height: 100px;
+}
+
+.bootstrap{
+    background-color: var(--boot-start);
+}
