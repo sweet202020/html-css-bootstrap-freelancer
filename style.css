@@ -1,0 +1,16 @@
+
+:root{
+    --boot-start: #1ABC9C;
+    --boot-primary: #2C3E50;
+    --boot-portfolio: #333333;
+    --boot-foot: #3A546D;
+
+}
+nav{
+    background-color: var(--boot-primary);
+}
+.debug .col-4{
+    height: 100px;
+    background-color: aqua;
+    border: 1px solid;
+}
