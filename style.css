@@ -14,7 +14,7 @@ nav{
     background-color: aqua;
     border: 1px solid;
 }
-.debug .jumbo{
+.debug .bootstrap .col-12{
     background-color: green;
     height: 200px;
 }
@@ -31,7 +31,7 @@ nav{
     height: 200px;
     border: 1px solid;
 }
-.debug .contact{
+.debug .contact_me .col-12{
     height: 200px;
     background-color: purple;
 }
