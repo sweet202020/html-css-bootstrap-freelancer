@@ -17,6 +17,7 @@ img{
 }
 h1{
     font-size: 60px;
+    font-weight: 600;
 }
 /* #region debug */
 .debug header .col-4{
@@ -78,7 +79,7 @@ span{
     background-color: white;
 }
 
-.portfolio span{
+.portfolio span, .contact_me span{
     background-color: var(--boot-portfolio);
 }
 
@@ -89,13 +90,42 @@ span{
 }
 h2{
     font-size: 50px;
+    font-weight: 600;
 }
 .about p{
     font-size: 19px;
 }
+
+
+.contact_me form{
+    padding: 0 8rem;
+}
+
+
+.btn_start{
+    background-color: var(--boot-start);
+    color: white;
+}
+
+
+
 .footer_top{
-    background-color: var(--boot-primary);
+    background-color: var(--boot-foot);
+}
+.footer_top i{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 1rem;
+    height: 49.6px;
+    width: 49.6px;
+}
+.footer_top a{
+    text-decoration: none;
+    color: var(--boot-start);
+}
+.footer_top p{
+    font-weight: 700;
 }
 .footer_bottom{
-    background-color: var(--boot-foot);
+    background-color: var(--boot-primary);
 }
