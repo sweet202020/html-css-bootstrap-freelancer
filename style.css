@@ -9,13 +9,16 @@
 nav{
     background-color: var(--boot-primary);
 }
+img{
+    width: 100%;
+}
+/* #region debug */
 .debug header .col-4{
     height: 100px;
     background-color: aqua;
     border: 1px solid;
 }
-.debug .bootstrap .col-12{
-    background-color: green;
+.debug .bootstrap{
     height: 200px;
 }
 .debug .portfolio .col-12,
@@ -45,9 +48,20 @@ nav{
     border: 1px solid;
     height: 100px;
 }
+/* #endregion debug */
+
 
 .bootstrap{
     background-color: var(--boot-start);
+}
+.bootstrap img{
+    width: 200px;
+}
+.bootstrap span{
+    width: 80px;
+    background-color: white;
+    height: 3px;
+    display: inline-block;
 }
 
 .about{
