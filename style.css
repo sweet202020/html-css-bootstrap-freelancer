@@ -12,6 +12,12 @@ nav{
 img{
     width: 100%;
 }
+.text_portfolio{
+    color: var(--boot-portfolio);
+}
+h1{
+    font-size: 60px;
+}
 /* #region debug */
 .debug header .col-4{
     height: 100px;
@@ -50,6 +56,9 @@ img{
 }
 /* #endregion debug */
 
+header .navbar-toggler-icon{
+    filter: invert(1);
+}
 
 .bootstrap{
     background-color: var(--boot-start);
@@ -57,15 +66,32 @@ img{
 .bootstrap img{
     width: 200px;
 }
-.bootstrap span{
-    width: 80px;
-    background-color: white;
+.bootstrap .job{
+    font-size: 25px;
+}
+span{
+    width: 130px;
     height: 3px;
     display: inline-block;
 }
+.bootstrap span, .about span{
+    background-color: white;
+}
+
+.portfolio span{
+    background-color: var(--boot-portfolio);
+}
+
+
 
 .about{
     background-color: var(--boot-start);
+}
+h2{
+    font-size: 50px;
+}
+.about p{
+    font-size: 19px;
 }
 .footer_top{
     background-color: var(--boot-primary);
